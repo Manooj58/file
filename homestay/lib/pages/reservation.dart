@@ -41,17 +41,6 @@ class _reservationState extends State<reservation> {
           actions: [
             TextButton(
               onPressed: () {
-                setState(() {
-                  widget.no_of_available_rooms = widget.no_of_available_rooms -
-                      num.parse(roomsController.text);
-                });
-                // Navigator.pushAndRemoveUntil(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => MyHomePage(),
-                //   ),
-                //   (Route<dynamic> route) => false,
-                // );
                 Navigator.pop(
                   context,
                 );
