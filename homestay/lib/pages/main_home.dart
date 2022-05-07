@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:ui';
 import 'package:home_stay/pages/description.dart';
+import 'package:home_stay/pages/search.dart';
 import 'package:http/http.dart' as http;
 import './favourites.dart';
 import 'package:flutter/material.dart';
@@ -143,6 +144,7 @@ class _MainHomeState extends State<MainHome> {
                       AppBar().preferredSize.height) *
                   0.02,
             ),
+            searchBar(),
             Container(
               child: currentLat != '' && currentLog != ''
                   ? Column(
