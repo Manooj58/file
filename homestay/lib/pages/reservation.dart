@@ -115,11 +115,11 @@ class _reservationState extends State<reservation> {
                 key: _key,
                 child: Column(
                   children: [
-                    Container(
-                      child: Text('Number of available rooms:' +
-                          '  ' +
-                          widget.no_of_available_rooms.toString()),
-                    ),
+                    // Container(
+                    //   child: Text('Number of available rooms:' +
+                    //       '  ' +
+                    //       widget.no_of_available_rooms.toString()),
+                    // ),
                     SizedBox(
                       height: 15,
                     ),
